@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Sidebar = () => {
   return (
-    <div className="w-64 bg-gray-800 text-white shadow-lg h-screen"> {/* Add h-screen for full height */}
+    <div className="w-64 bg-gray-800 text-white shadow-lg h-screen z-50"> {/* Add h-screen for full height */}
       <div className="p-6">
         <h1 className="text-2xl font-bold">MyApp</h1>
       </div>
